@@ -14,6 +14,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="LoginServlet" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mariadb.jdbc:mariadb-java-client:2.7.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/LoginServlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
