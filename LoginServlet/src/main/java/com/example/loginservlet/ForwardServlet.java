@@ -18,8 +18,6 @@ public class ForwardServlet extends HttpServlet {
         String name = "jaehun";
         String age = "34";
 
-
-
         request.setAttribute("name", name);
         request.setAttribute("age", age);
         RequestDispatcher dis = request.getRequestDispatcher("ForwardResult.jsp");
