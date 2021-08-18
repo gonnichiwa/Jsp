@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
         // http://localhost:8080/LoginServlet_war_exploded/login?id=hhhh&passwd=ffffff -- 웹브라우저(client)에서 요청 (GET방식, HTTPMETHOD)
         /* 1. client의 요청을 받아 오는 부분 */
         String id = request.getParameter("id");
-        String passwd = request.getParameter("passwd");
+        String passwd = request.getParameter("password");
         // 연습 : 이름(name), 나이(age) 추가해서 뜰 수 있도록 해보세요.
         String name = request.getParameter("name");
         String age = request.getParameter("age");
