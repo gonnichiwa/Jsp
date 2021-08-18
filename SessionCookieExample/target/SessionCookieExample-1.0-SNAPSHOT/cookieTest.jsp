@@ -13,7 +13,7 @@
           Sets the maximum age of the cookie in seconds.
     * https://tomcat.apache.org/tomcat-5.5-doc/servletapi/javax/servlet/http/Cookie.html
     * */
-    cookie.setMaxAge(600);
+    cookie.setMaxAge(600); // 600초 = 10분
     response.addCookie(cookie);
 %>
 <html>

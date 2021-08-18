@@ -28,12 +28,12 @@
         <form action="sessionLogin2.jsp" method="post">
             <table>
                 <tr>
-                    <td><label for="id">아이디 :</label></td>
-                    <td><input type="text" name="id" id="id"/></td>
+                    <td><label for="idid">아이디 :</label></td>
+                    <td><input type="text" name="id" id="idid"/></td>
                 </tr>
                 <tr>
-                    <td><label for="pass">비밀번호 :</label></td>
-                    <td><input type="password" name="pass" id="pass"/></td>
+                    <td><label for="passpass">비밀번호 :</label></td>
+                    <td><input type="password" name="pass" id="passpass"/></td>
                 </tr>
                 <tr>
                     <td colspan="2"><input type="submit" value="로그인"><input type="submit" value="다시 작성"></td>

@@ -13,6 +13,7 @@
     if(cookie != null) {
         Cookie[] cookies = request.getCookies();
         for(Cookie c : cookies){
+            System.out.println("key=" + c.getName() + ", value=" + c.getValue());
             if(c.getName().equals("name")){
                 name = c.getName();
                 value = c.getValue();

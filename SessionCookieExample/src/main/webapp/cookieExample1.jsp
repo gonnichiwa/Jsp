@@ -34,7 +34,7 @@
     <input type="radio" name="language" value="korea"
       <% if(language.equals("korea")) {%>checked <%}%>/>한국어페이지 보기
     <input type="radio" name="language" value="english"
-           <% if(language.equals("korea")) {%>checked<%}%>/>영어페이지 보기
+           <% if(language.equals("english")) {%>checked<%}%>/>영어페이지 보기
     <input type="submit" value="설정"/>
 </form>
 </body>
