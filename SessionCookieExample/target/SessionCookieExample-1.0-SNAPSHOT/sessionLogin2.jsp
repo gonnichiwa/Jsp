@@ -9,6 +9,7 @@
 <% session.setAttribute("id", request.getParameter("id"));
     String id = request.getParameter("id");
     String pass = request.getParameter("pass");
+
     System.out.println("입력받은 id = " + id);
     System.out.println("입력받은 password = " + pass);
 

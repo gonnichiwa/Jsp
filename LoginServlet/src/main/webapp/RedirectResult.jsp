@@ -11,9 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-
 <%
-
     String key1 = request.getParameter("key1");
     String key2 = request.getParameter("key2");
 %>
