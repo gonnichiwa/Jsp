@@ -10,7 +10,7 @@ import javax.servlet.http.Part;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/partUploadPro1.bbs")
+@WebServlet("/partUploadPro1")
 @MultipartConfig(
         fileSizeThreshold = 0,
         location = "C:/jsp2.3/upload"
