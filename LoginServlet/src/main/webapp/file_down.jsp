@@ -28,7 +28,7 @@
     String agent = request.getHeader("User-Agent");
     boolean ieBrowser = (agent.contains("MSIE")) || (agent.contains("Trident"));
 
-    // Microsoft Internet Explorer라면 파일 이름을 어떻게 처리해서 보낼것인지?
+    // Microsoft Internet Exploreuploar라면 파일 이름을 어떻게 처리해서 보낼것인지?
     if(ieBrowser) {
         fileName = URLEncoder.encode(fileName, "UTF-8").replaceAll("\\+", "%20");
     } else {
