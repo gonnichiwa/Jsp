@@ -10,8 +10,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String uploadPath = request.getRealPath("/upload");
-    int size = 10*1024*1024; // ???
-    String name ="";
+    int size = 10*1024*1024; // 10 MegaByte : 파일 업로드 받을 때 허용하는 파일 길이
+    String name = "";
     String subject = "";
     String filename1 = "";
     String filename2 = "";

@@ -25,6 +25,7 @@
     }
 
     response.setContentType(sMimeType);
+    // Microsoft Internet Explorer 대응.
     String agent = request.getHeader("User-Agent");
     boolean ieBrowser = (agent.contains("MSIE")) || (agent.contains("Trident"));
 

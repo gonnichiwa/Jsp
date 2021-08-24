@@ -11,6 +11,7 @@
     String name = request.getParameter("name");
     String subject = request.getParameter("subject");
     String filename1 = request.getParameter("filename1");
+    System.out.println("filename1" + filename1);
     String filename2 = request.getParameter("filename2");
     String origfilename1 = request.getParameter("origfilename1");
     String origfilename2 = request.getParameter("origfilename2");
